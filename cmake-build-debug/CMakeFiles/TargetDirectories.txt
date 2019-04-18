@@ -1,0 +1,3 @@
+C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/CMakeFiles/CacheSim.dir
+C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/CMakeFiles/rebuild_cache.dir

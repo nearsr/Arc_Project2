@@ -1,0 +1,4 @@
+ToolSet: w64 5.0@C:\Users\Stacia\Desktop\sfml\mingw64\mingw64
+Options: 
+
+Options:

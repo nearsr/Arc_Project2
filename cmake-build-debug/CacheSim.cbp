@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CacheSim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CacheSim">
+				<Option output="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/CacheSim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/."/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 CacheSim"/>
+					<CompileFile command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CacheSim/fast">
+				<Option output="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/CacheSim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/."/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 CacheSim/fast"/>
+					<CompileFile command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Stacia/Desktop/sfml/mingw64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/._Makefile">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/._pinatrace.out">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/Makefile">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cache.cpp">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/cache.h">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/main.cpp">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/misc.h">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/pinatrace.out">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/prefetch.cpp">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/prefetch.h">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/system.cpp">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/system.h">
+			<Option target="CacheSim"/>
+		</Unit>
+		<Unit filename="C:/Users/Stacia/Downloads/cacheSimV2.tar/CacheSim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
