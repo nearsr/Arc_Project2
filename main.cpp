@@ -57,12 +57,24 @@ int main(int argc, char** argv)
              prefetch = new BestEffortPrefetch();
 
           }
+          else {
+             cout << "Invalid args" << endl;
+             cout << "Please enter --prefetcher {AdjPrefetch, SeqPrefetch --numPrefetch #, BestEffortPrefetch}" << endl;
+             cout << "If no numPrefetch, default value of 4 will be chosen." << endl;
+             return -1;
+          }
+       }
+       else {
+          cout << "Invalid args" << endl;
+          cout << "Please enter --prefetcher {AdjPrefetch, SeqPrefetch --numPrefetch #, BestEffortPrefetch}" << endl;
+          cout << "If no numPrefetch, default value of 4 will be chosen." << endl;
+          return -1;
        }
     }
     else {
        cout << "Please enter --prefetcher {AdjPrefetch, SeqPrefetch --numPrefetch #, BestEffortPrefetch}" << endl;
        cout << "If no numPrefetch, default value of 4 will be chosen." << endl;
-       return 1;
+       return -1;
     }
 
    prefetch->numPrefetch = n;
