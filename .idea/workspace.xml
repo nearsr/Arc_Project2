@@ -247,7 +247,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheSim" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--prefetcher BestEffortPrefetch" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CacheSim" TARGET_NAME="CacheSim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CacheSim" RUN_TARGET_NAME="CacheSim">
+    <configuration name="CacheSim" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--prefetcher AdjPrefetch" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CacheSim" TARGET_NAME="CacheSim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CacheSim" RUN_TARGET_NAME="CacheSim">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>

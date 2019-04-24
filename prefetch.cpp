@@ -145,5 +145,5 @@ int BestEffortPrefetch::prefetchHit(uint64_t address __attribute__((unused)),
         sys->memAccess(address + (1 << sys->SET_SHIFT)*i, 'R', tid, true);
     }
     return numPrefetch;
-    
+
 }
