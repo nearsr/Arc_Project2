@@ -4,10 +4,12 @@
 #include <sstream>
 #include <string>
 #include "system.h"
+#include <string.h>
 
 using namespace std;
 
-int main()
+
+int main(int argc, char** argv)
 {
    // tid_map is used to inform the simulator how
    // thread ids map to NUMA/cache domains. Using
@@ -15,7 +17,57 @@ int main()
    unsigned int arr_map[] = {0};
    vector<unsigned int> tid_map(arr_map, arr_map +
          sizeof(arr_map) / sizeof(unsigned int));
-   NullPrefetch prefetch;
+
+
+   //Deal with args
+   //NullPrefetch prefetch;
+    Prefetch* prefetch;
+
+    /*
+   cout << "You have entered " << argc
+        << " arguments:" << "\n";
+   for (int i = 0; i < argc; ++i)
+      cout << argv[i] << "\n";
+      */
+   int n = 4;
+
+    if (argc >= 3){
+       if(strcmp(argv[1], "--prefetcher") == 0) {
+          if(strcmp(argv[2], "AdjPrefetch") == 0){
+             cout << "Using adjacent prefetcher." << endl;
+             prefetch = new AdjPrefetch();
+          }
+          else if(strcmp(argv[2], "SeqPrefetch") == 0){
+             cout << "Using sequential prefetcher." << endl;
+             prefetch = new SeqPrefetch();
+
+             if (argc >= 5){
+                if(strcmp(argv[3], "--numPrefetch") == 0){
+                   //atol stoi
+                   n = std::stoi (argv[4]);
+                   cout << "n = " << n << endl;
+                }
+             }
+             else {
+                cout << "n = " << n << endl;
+             }
+          }
+          else if(strcmp(argv[2], "BestEffortPrefetch") == 0){
+             cout << "Using optimized prefetcher." << endl;
+             prefetch = new BestEffortPrefetch();
+
+          }
+       }
+    }
+    else {
+       cout << "Please enter --prefetcher {AdjPrefetch, SeqPrefetch --numPrefetch #, BestEffortPrefetch}" << endl;
+       cout << "If no numPrefetch, default value of 4 will be chosen." << endl;
+       return 1;
+    }
+
+   prefetch->numPrefetch = n;
+
+
    // The constructor parameters are:
    // the tid_map, the cache line size in bytes,
    // number of cache lines, the associativity,
@@ -24,7 +76,7 @@ int main()
    // whether to do virtual to physical translation,
    // and number of caches/domains
    // WARNING: counting compulsory misses doubles execution time
-   MultiCacheSystem sys(tid_map, 64, 1024, 64, &prefetch, true, false, 1);
+   MultiCacheSystem sys(tid_map, 64, 1024, 64, prefetch, true, false, 1);
    char rw;
    uint64_t address;
    unsigned long long lines = 0;
