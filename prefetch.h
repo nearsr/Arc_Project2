@@ -47,7 +47,8 @@ public:
                     System* sys);
 };
 
-//BestEffort
+
+//Best
 class BestEffortPrefetch : public Prefetch {
 public:
     int prefetchMiss(uint64_t address, unsigned int tid,

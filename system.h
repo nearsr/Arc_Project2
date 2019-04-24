@@ -33,6 +33,7 @@ protected:
    friend class Prefetch;
    friend class SeqPrefetch;
    friend class AdjPrefetch;
+   friend class BestEffortPrefetch;
    Prefetch* prefetcher;
    uint64_t SET_MASK;
    uint64_t TAG_MASK;
